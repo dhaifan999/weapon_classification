@@ -3,22 +3,22 @@
       {
         "id": 1,
         "name": "Bambu",
-        "description": "Ini merupakan senjata Bambu.",
+        "description": "Ini merupakan senjata Bambu."
       },
       {
         "id": 2,
         "name": "Bedog",
-        "description": "Ini merupakan senjata Bedog.",
+        "description": "Ini merupakan senjata Bedog."
       },
       {
         "id": 3,
         "name": "Kujang",
-        "description": "Ini merupakan senjata Kujang.",
+        "description": "Ini merupakan senjata Kujang."
       },
       {
         "id": 4,
         "name": "Tombak",
-        "description": "Ini merupakan senjata Tombak.",
+        "description": "Ini merupakan senjata Tombak."
       }
     ]
   }
