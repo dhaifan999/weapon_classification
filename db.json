@@ -1,0 +1,24 @@
+{
+    "weapon": [
+      {
+        "id": 1,
+        "name": "Bambu",
+        "description": "Penyakit bacterial spot adalah penyakit bercak daun yang diakibatkan oleh bakteri Xanthomonas spp. dan sangat merugikan karena penyakit tersebut menyerang tanaman tomat mulai dari fase bibit hingga dewasa, bahkan penyakit bacterial spot tidak hanya menyerang daun akan tetapi juga menginfeksi akar, buah dan batang."
+      },
+      {
+        "id": 2,
+        "name": "Bedog",
+        "description": "Penyakit bercak daun alternaria atau penyakit bercak kering disebabkan oleh cendawan Alternaria sp. Patogen ditularkan melalui udara. Gejala awal timbulnya bercak kecil di daun-daun bagian bawah, kemudian berkembang dengan diameter mencapai ± 15 mm. Warna bercak coklat dengan lingkaran-lingkaran sepusat."
+     },
+      {
+        "id": 3,
+        "name": "Kujang",
+        "description": "Late blight atau penyakit busuk daun disebabkan oleh jamur Phytophthora infestans. Biasanya menyerang pada tanaman tomat di dataran tinggi. Gejala serangan pada daun terjadi bercak coklat hingga hitam. Awalnya menyerang ujung dan sisi daun, kemudian meluas ke seluruh permukaan daun hingga ke tangkai daun."
+      },
+      {
+        "id": 4,
+        "name": "Tombak",
+        "description": "Leaf Mold merupakan penyakit pada tanaman tomat, yang biasanya muncul pada tomat yang dibudidayakan dalam rumah kaca atau lingkungan yang lembab. Jamur Cladosporium fulvum menjadi penyebab muncul nya penyakit ini, dan dapat menyebabkan turunnya kualitas dan hasil pertanian tomat."
+      }
+    ]
+  }
