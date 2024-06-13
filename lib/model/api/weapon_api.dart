@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:weapon_classification/model/weapon_model.dart';
 
 class WeaponAPI {
-  static Future<List<Weapon>> getAllDiseases() async {
+  static Future<List<Weapon>> getAllWeapons() async {
     final response = await Dio().get(
         'https://my-json-server.typicode.com/dhaifan999/weapon_classification/weapon');
 
