@@ -56,7 +56,7 @@ class _HomePageState extends State<HomePage> {
             height: 15,
           ),
           Text(
-            'Welcome to Klasifikasi Senjata',
+            'Welcome to Klasifikasi',
             textAlign: TextAlign.center,
             style: GoogleFonts.montserrat(
               fontSize: 25,
@@ -64,12 +64,42 @@ class _HomePageState extends State<HomePage> {
             ),
           ),
           Text(
-            'Masukkan gambar senjata tradisional Jawa Barat untuk diklasifikasi.',
+            'Senjata Tradisional',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.montserrat(
+              fontSize: 25,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          Text(
+            'Jawa Barat',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.montserrat(
+              fontSize: 25,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          const SizedBox(
+            height: 16,
+          ),
+          Text(
+            'Masukkan gambar senjata tradisional',
             textAlign: TextAlign.center,
             style: GoogleFonts.roboto(
               fontSize: 15,
               fontWeight: FontWeight.w400,
             ),
+          ),
+          Text(
+            'Jawa Barat untuk diklasifikasi.',
+            textAlign: TextAlign.center,
+            style: GoogleFonts.roboto(
+              fontSize: 15,
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+          const SizedBox(
+            height: 16,
           ),
           (imageSelect)
               ? Container(
@@ -85,6 +115,9 @@ class _HomePageState extends State<HomePage> {
                     ),
                   ),
                 ),
+          const SizedBox(
+            height: 16,
+          ),
           SingleChildScrollView(
             child: Column(
               children: (imageSelect)

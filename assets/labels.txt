@@ -1,4 +1,4 @@
-0 Kujang
-1 Bedog
-2 Bambu
-3 Tombak
+Kujang
+Bedog
+Bambu
+Tombak
