@@ -3,21 +3,25 @@
       {
         "id": 1,
         "name": "Bambu",
+        "image": ,
         "description": "Bambu runcing adalah sebuah senjata yang terbuat dari bahan baku bambu yang diruncingkan. Senjata ini dahulu konon digunakan oleh bangsa Indonesia sebagai alat perlawanan melawan penjajahan kolonialial belanda."
       },
       {
         "id": 2,
         "name": "Bedog",
+        "image": ,
         "description": "Bedog diterjamahkan dalam bahasa Indonesia adalah golok. Bedog adalah alat pekakas untuk memotong. Biasanya digunakan untuk berkebun. Bedog bukan hanya terkait pada wilahnya saja melainkan harus memakai perah dan sarangka."
       },
       {
         "id": 3,
         "name": "Kujang",
+        "image": ,
         "description": "Kujang merupakan perkakas yang merefleksikan ketajaman dan daya kritis dalam kehidupan juga melambangkan kekuatan dan keberanian untuk melindungi hak dan kebenaran. Menjadi ciri khas, baik sebagai senjata, alat pertanian, perlambang, hiasan, ataupun cindera mata."
       },
       {
         "id": 4,
         "name": "Tombak",
+        "image": ,
         "description": "Tombak adalah benda Pusaka Keraton Sumedang Larang yang berbentuk senjata tajam yang terbuat dari bahan logam campuran besi, nikel dan timah, merupakan peninggalan abad 15 M. Tombak terdapat berbagai jenis, yang satu ini jenis tombak bermata mata tunggal ukurannya pendek. Tombak jenis ini ada yang memiliki tongkat yang panjang, ada juga tongkat yang pendek."
       }
     ]
