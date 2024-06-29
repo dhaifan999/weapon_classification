@@ -88,6 +88,15 @@ class _DiseasePageState extends State<DiseasePage> {
                                     color: const Color(0xFF2465ac),
                                   ),
                                 ),
+                                leading: ConstrainedBox(
+                                  constraints: const BoxConstraints(
+                                    minWidth: 44,
+                                    minHeight: 44,
+                                    maxWidth: 64,
+                                    maxHeight: 64,
+                                  ),
+                                  child: Image.asset(disease.image),
+                                ),
                                 subtitle: Text(
                                   disease.description,
                                   style: GoogleFonts.roboto(
