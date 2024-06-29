@@ -1,4 +1,5 @@
-Kujang
-Bedog
 Bambu
+Bedog
+Golok
+Kujang
 Tombak
