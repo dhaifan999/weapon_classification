@@ -50,14 +50,14 @@ class _DiseasePageState extends State<DiseasePage> {
                     color: const Color(0xFF2465ac),
                   ),
                 ),
-                subtitle: Text(
-                  disease.description,
-                  style: GoogleFonts.roboto(
-                    fontSize: 15,
-                    fontWeight: FontWeight.w400,
-                    color: Colors.black,
-                  ),
-                ),
+                //subtitle: Text(
+                //disease.description,
+                //style: GoogleFonts.roboto(
+                //fontSize: 15,
+                //fontWeight: FontWeight.w400,
+                //color: Colors.black,
+                //),
+                //),
               ),
               ElevatedButton(
                 style: ButtonStyle(

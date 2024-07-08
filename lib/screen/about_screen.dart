@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:weapon_classification/screen/about_this_screen.dart';
-import 'package:weapon_classification/screen/contact_us_screen.dart';
 
 class AboutPage extends StatefulWidget {
   const AboutPage({super.key});
@@ -17,7 +16,7 @@ class _AboutPageState extends State<AboutPage> {
       body: SingleChildScrollView(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [AboutThisApp(), ContactUsPage()],
+          children: [AboutThisApp()],
         ),
       ),
     );

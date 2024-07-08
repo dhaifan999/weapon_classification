@@ -20,15 +20,21 @@
       },
       {
         "id": 4,
+        "name": "Keris",
+        "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/tombak.jpg",
+        "description": "Keris merupakan senjata tajam golongan belati dari suku Jawa yang memiliki ragam fungsi budaya yang dikenal di kawasan Nusantara bagian barat dan tengah. Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya karena tidak simetris di bagian pangkal yang melebar, sering kali bilahnya berkelok-kelok, dan banyak di antaranya memiliki pamor (damascene), yaitu terlihat serat-serat lapisan logam cerah pada helai bilah."
+      },
+      {
+        "id": 5,
         "name": "Kujang",
         "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/kujang.jpg",
         "description": "Kujang merupakan perkakas yang merefleksikan ketajaman dan daya kritis dalam kehidupan juga melambangkan kekuatan dan keberanian untuk melindungi hak dan kebenaran. Menjadi ciri khas, baik sebagai senjata, alat pertanian, perlambang, hiasan, ataupun cindera mata."
       },
       {
-        "id": 5,
-        "name": "Tombak",
-        "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/tombak.jpg",
-        "description": "Tombak adalah benda Pusaka Keraton Sumedang Larang yang berbentuk senjata tajam yang terbuat dari bahan logam campuran besi, nikel dan timah, merupakan peninggalan abad 15 M. Tombak terdapat berbagai jenis, yang satu ini jenis tombak bermata mata tunggal ukurannya pendek. Tombak jenis ini ada yang memiliki tongkat yang panjang, ada juga tongkat yang pendek."
-      }
-    ]
-  }
+      "id": 6,
+      "name": "Tombak",
+      "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/tombak.jpg",
+      "description": "Tombak adalah benda Pusaka Keraton Sumedang Larang yang berbentuk senjata tajam yang terbuat dari bahan logam campuran besi, nikel dan timah, merupakan peninggalan abad 15 M. Tombak terdapat berbagai jenis, yang satu ini jenis tombak bermata mata tunggal ukurannya pendek. Tombak jenis ini ada yang memiliki tongkat yang panjang, ada juga tongkat yang pendek."
+    }
+  ]
+}

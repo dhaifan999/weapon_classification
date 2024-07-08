@@ -31,12 +31,8 @@ class _AboutThisAppState extends State<AboutThisApp> {
               const SizedBox(
                 height: 10,
               ),
-              Image.asset('assets/img/initomat.jpg'),
-              const SizedBox(
-                height: 10,
-              ),
               Text(
-                'Aplikasi ini dibuat untuk memenuhi syarat kelulusan.',
+                'Aplikasi Deteksi Senjata Tradisional Jawa Barat Berbasis Mobile adalah sebuah aplikasi yang dirancang untuk membantu masyarakat dalam mengidentifikasi senjata tradisional Jawa Barat. Aplikasi ini memanfaatkan teknologi pengenalan gambar (image recognition) untuk mendeteksi jenis senjata tradisional dari gambar yang diambil oleh pengguna.',
                 textAlign: TextAlign.center,
                 style: GoogleFonts.roboto(
                   fontSize: 15,
