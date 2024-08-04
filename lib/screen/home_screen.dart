@@ -103,6 +103,8 @@ class _HomePageState extends State<HomePage> {
           ),
           (imageSelect)
               ? Container(
+                  height: 300,
+                  width: 300,
                   margin: const EdgeInsets.all(0),
                   child: Image.file(_image),
                 )
@@ -111,7 +113,10 @@ class _HomePageState extends State<HomePage> {
                   child: const Opacity(
                     opacity: 0.8,
                     child: Center(
-                      child: Text("No image selected"),
+                      child: Text(
+                        "Tidak ada gambar yang dipilih",
+                        textAlign: TextAlign.center,
+                      ),
                     ),
                   ),
                 ),
@@ -144,27 +149,54 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: ElevatedButton(
         style: ElevatedButton.styleFrom(
           backgroundColor: const Color(0xFF2465ac),
+          foregroundColor: Colors.white,
         ),
-        onPressed: pickImage,
+        onPressed: () => showImagePickerOptions(context),
         child: const Row(
           mainAxisSize: MainAxisSize.min,
           children: [
             Icon(Icons.photo),
             SizedBox(width: 10),
-            Text('Pick Image'),
+            Text('Pilih Gambar'),
           ],
         ),
       ),
     );
   }
 
-  Future pickImage() async {
-    // ignore: no_leading_underscores_for_local_identifiers
-    final ImagePicker _picker = ImagePicker();
-    final XFile? pickedFile = await _picker.pickImage(
-      source: ImageSource.gallery,
+  Future<void> showImagePickerOptions(BuildContext context) async {
+    final optionsDialog = AlertDialog(
+      title: const Text('Pilih Gambar'),
+      content: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          ListTile(
+            title: const Text('Ambil Gambar'),
+            onTap: () async {
+              Navigator.pop(context);
+              final image =
+                  await ImagePicker().pickImage(source: ImageSource.camera);
+              if (image != null) {
+                final file = File(image.path);
+                imageClassification(file);
+              }
+            },
+          ),
+          ListTile(
+            title: const Text('Pilih dari Galeri'),
+            onTap: () async {
+              Navigator.pop(context);
+              final image =
+                  await ImagePicker().pickImage(source: ImageSource.gallery);
+              if (image != null) {
+                final file = File(image.path);
+                imageClassification(file);
+              }
+            },
+          ),
+        ],
+      ),
     );
-    File image = File(pickedFile!.path);
-    imageClassification(image);
+    showDialog(context: context, builder: (context) => optionsDialog);
   }
 }

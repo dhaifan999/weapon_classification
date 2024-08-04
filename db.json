@@ -3,37 +3,37 @@
       {
         "id": 1,
         "name": "Bambu",
-        "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/bambu.jpg",
+        "image": "raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/bambu.jpg",
         "description": "Bambu runcing adalah sebuah senjata yang terbuat dari bahan baku bambu yang diruncingkan. Senjata ini dahulu konon digunakan oleh bangsa Indonesia sebagai alat perlawanan melawan penjajahan kolonialial belanda."
       },
       {
         "id": 2,
         "name": "Bedog",
-        "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/bedog.jpg",
+        "image": "raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/bedog.jpg",
         "description": "Bedog diterjamahkan dalam bahasa Indonesia adalah golok. Bedog adalah alat pekakas untuk memotong. Biasanya digunakan untuk berkebun. Bedog bukan hanya terkait pada wilahnya saja melainkan harus memakai perah dan sarangka."
       },
       {
         "id": 3,
         "name": "Golok",
-        "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/golok.jpg",
+        "image": "raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/golok.jpg",
         "description": "Golok adalah pisau besar terbuat dari besi atau baja yang digunakan untuk membelah atau memotong. Golok kerap digunakan sebagai alat berkebun oleh masyarakat Indonesia. Ukuran, berat, dan bentuknya bervariasi tergantung dari pandai besi yang membuatnya. Golok memiliki bentuk yang hampir serupa dengan machete tetapi golok cenderung lebih pendek dan lebih berat, dan sering digunakan untuk memotong semak dan dahan pohon."
       },
       {
         "id": 4,
         "name": "Keris",
-        "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/keris.jpg",
+        "image": "raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/keris.jpg",
         "description": "Keris merupakan senjata tajam golongan belati dari suku Jawa yang memiliki ragam fungsi budaya yang dikenal di kawasan Nusantara bagian barat dan tengah. Bentuknya khas dan mudah dibedakan dari senjata tajam lainnya karena tidak simetris di bagian pangkal yang melebar, sering kali bilahnya berkelok-kelok, dan banyak di antaranya memiliki pamor (damascene), yaitu terlihat serat-serat lapisan logam cerah pada helai bilah."
       },
       {
         "id": 5,
         "name": "Kujang",
-        "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/kujang.jpg",
+        "image": "raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/kujang.jpg",
         "description": "Kujang merupakan perkakas yang merefleksikan ketajaman dan daya kritis dalam kehidupan juga melambangkan kekuatan dan keberanian untuk melindungi hak dan kebenaran. Menjadi ciri khas, baik sebagai senjata, alat pertanian, perlambang, hiasan, ataupun cindera mata."
       },
       {
       "id": 6,
       "name": "Tombak",
-      "image": "https://raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/tombak.jpg",
+      "image": "raw.githubusercontent.com/dhaifan999/weapon_classification/main/assets/img/tombak.jpg",
       "description": "Tombak adalah benda Pusaka Keraton Sumedang Larang yang berbentuk senjata tajam yang terbuat dari bahan logam campuran besi, nikel dan timah, merupakan peninggalan abad 15 M. Tombak terdapat berbagai jenis, yang satu ini jenis tombak bermata mata tunggal ukurannya pendek. Tombak jenis ini ada yang memiliki tongkat yang panjang, ada juga tongkat yang pendek."
     }
   ]

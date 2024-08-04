@@ -44,28 +44,25 @@ class _DiseasePageState extends State<DiseasePage> {
               ListTile(
                 title: Text(
                   disease.name,
+                  textAlign: TextAlign.center,
                   style: GoogleFonts.poppins(
                     fontSize: 25,
                     fontWeight: FontWeight.w800,
                     color: const Color(0xFF2465ac),
                   ),
                 ),
-                //subtitle: Text(
-                //disease.description,
-                //style: GoogleFonts.roboto(
-                //fontSize: 15,
-                //fontWeight: FontWeight.w400,
-                //color: Colors.black,
-                //),
-                //),
+                subtitle: SizedBox(
+                  width: 200,
+                  height: 200,
+                  child: Image.network(disease.image),
+                ),
               ),
               ElevatedButton(
-                style: ButtonStyle(
-                  backgroundColor: MaterialStateProperty.all<Color>(
-                    const Color(0xFF2465ac),
-                  ),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: const Color(0xFF2465ac),
+                  foregroundColor: Colors.white,
                 ),
-                child: const Text('See More'),
+                child: const Text('Lihat lebih lanjut'),
                 onPressed: () {
                   showModalBottomSheet<void>(
                     context: context,
@@ -88,14 +85,8 @@ class _DiseasePageState extends State<DiseasePage> {
                                     color: const Color(0xFF2465ac),
                                   ),
                                 ),
-                                leading: ConstrainedBox(
-                                  constraints: const BoxConstraints(
-                                    minWidth: 44,
-                                    minHeight: 44,
-                                    maxWidth: 64,
-                                    maxHeight: 64,
-                                  ),
-                                  child: Image.asset(disease.image),
+                                leading: SizedBox(
+                                  child: Image.network(disease.image),
                                 ),
                                 subtitle: Text(
                                   disease.description,
@@ -107,13 +98,11 @@ class _DiseasePageState extends State<DiseasePage> {
                                 ),
                               ),
                               ElevatedButton(
-                                style: ButtonStyle(
-                                  backgroundColor:
-                                      MaterialStateProperty.all<Color>(
-                                    const Color(0xFF2465ac),
-                                  ),
+                                style: ElevatedButton.styleFrom(
+                                  backgroundColor: const Color(0xFF2465ac),
+                                  foregroundColor: Colors.white,
                                 ),
-                                child: const Text('Close'),
+                                child: const Text('Tutup'),
                                 onPressed: () => Navigator.pop(context),
                               ),
                             ],
@@ -140,7 +129,11 @@ class _DiseasePageState extends State<DiseasePage> {
     }
 
     if (isError) {
-      return const Center(child: Text('Failed to fetch data.'));
+      return const Center(
+          child: Text(
+        'Pastikan ponsel anda terhubung dengan koneksi internet',
+        textAlign: TextAlign.center,
+      ));
     }
 
     return listView(viewModel);

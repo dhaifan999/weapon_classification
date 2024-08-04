@@ -28,8 +28,10 @@ class _AboutThisAppState extends State<AboutThisApp> {
                   color: Colors.black,
                 ),
               ),
-              const SizedBox(
-                height: 10,
+              SizedBox(
+                width: 300,
+                height: 300,
+                child: Image.asset('assets/img/poster.jpg'),
               ),
               Text(
                 'Aplikasi Deteksi Senjata Tradisional Jawa Barat Berbasis Mobile adalah sebuah aplikasi yang dirancang untuk membantu masyarakat dalam mengidentifikasi senjata tradisional Jawa Barat. Aplikasi ini memanfaatkan teknologi pengenalan gambar (image recognition) untuk mendeteksi jenis senjata tradisional dari gambar yang diambil oleh pengguna.',
